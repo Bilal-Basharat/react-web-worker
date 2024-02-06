@@ -1,16 +1,22 @@
-<<<<<<< HEAD
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Sorting App using Web Worker
 
-## Available Scripts
+In this project we will sort data using web workers to increase the effiency and performance of the web application.
 
-In the project directory, you can run:
+## Web Workers
+They are simply JavaScript modules that can be run in the background of a web page. JavaScript is a single threaded responsible for executing all of the code one line at a time. While a web worker is a separate Javascript thread that allows the main thread to continue executing without blocking. This enables the creation of responsive, smooth, and interactive websites.
 
-### `npm start`
+## Types of Web Workers
+They are of two types:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## service workers
+They can manage static assets and cache them for offline use.
+
+## background scripts
+They can perform long-running tasks such as data processing, calculations, or network requests.
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -87,4 +93,7 @@ They can perform long-running tasks such as data processing, calculations, or ne
 
 ## Note:
 Web workers cannot perform DOM Manipulation
->>>>>>> 251dbd270eb1a00fc1098176d822bf88e51bf521
+
+## Note:
+Web workers cannot perform DOM Manipulation
+
